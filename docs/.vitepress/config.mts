@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AI Docs",
   description: "AI Documentation",
+  base: '/ai-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -35,7 +36,7 @@ export default defineConfig({
     outline: [2, 4],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ramkirant/ai-docs' }
     ]
   }
 })
