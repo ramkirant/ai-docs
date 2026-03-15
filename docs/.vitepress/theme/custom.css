@@ -1,0 +1,16 @@
+/* Highlight entire table row on hover */
+table tbody tr {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+table tbody tr:hover {
+  background-color: var(--vp-c-brand-soft);
+  box-shadow: inset 4px 0 0 0 var(--vp-c-brand);
+  font-weight: 500;
+}
+
+/* Ensure better contrast in dark mode */
+.dark table tbody tr:hover {
+  background-color: rgba(33, 150, 243, 0.15);
+  box-shadow: inset 4px 0 0 0 var(--vp-c-brand);
+}
