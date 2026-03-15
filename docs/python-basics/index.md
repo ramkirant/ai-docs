@@ -4,7 +4,7 @@ Welcome to the Python Basics guide. Learn everything you need to know to get sta
 
 ## Variables and Data Types
 
-Variables are containers for storing data values. Python has various data types including:
+Variables are containers for storing data values. Python has various data types including: 
 
 - **Integers**: Whole numbers like `5`, `-10`, `0`
 - **Floats**: Decimal numbers like `3.14`, `-2.5`
