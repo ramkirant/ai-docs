@@ -14,3 +14,17 @@ table tbody tr:hover {
   background-color: rgba(33, 150, 243, 0.15);
   box-shadow: inset 4px 0 0 0 var(--vp-c-brand);
 }
+
+/* Make page navigation (Next/Prev buttons) sticky at bottom */
+.VPDocFooter {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--vp-c-bg);
+  border-top: 1px solid var(--vp-c-divider);
+  z-index: 10;
+  padding: 24px 0;
+}
+
+.dark .VPDocFooter {
+  background-color: var(--vp-c-bg);
+}
