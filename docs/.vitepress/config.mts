@@ -7,6 +7,12 @@ export default defineConfig({
   base: '/ai-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+      options: {
+        disableMeta: true
+      }
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Python Basics', link: '/python-basics/' },
