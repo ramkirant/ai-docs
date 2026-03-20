@@ -25,7 +25,10 @@ export default defineConfig({
           text: 'Python Basics',
           items: [
             { text: 'Pre-requisites', link: '/python-basics/pre-requisites' },
-            { text: 'Introduction', link: '/python-basics/' }
+            { text: 'Introduction', link: '/python-basics/' },
+            { text: 'Sets', link: '/python-basics/sets' },
+            { text: 'Dictionaries', link: '/python-basics/dictionaries' },
+            { text: 'Tuples', link: '/python-basics/tuples' }
           ]
         }
       ],

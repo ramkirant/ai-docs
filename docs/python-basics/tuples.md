@@ -1,0 +1,58 @@
+# Tuples
+
+::: info Definition
+Tuples are ordered collection of items that are immutable. They are similar to lists, but their immutability makes them different. 
+:::
+
+## Create an Empty Tuple
+::: tip ▶Example: Create a Tuple
+```python
+empty_tuple=()
+```
+:::
+
+## Convert a list to a tuple
+::: tip ▶Example: Convert a list to a tuple
+```python
+numbers_tpl=tuple([1,2,3,4,5])
+mixed_tpl=(1,"Hello World", True)
+```
+💡Tuples can be of mixed data types
+:::
+
+## Accessing the elements of a tuple
+::: tip ▶Example: Accessing Tuple Elements
+```python
+tpl=(1,2,3,4,5,6)
+print(tpl[2])  ## This will fetch the third element from the left
+print(tpl[-1]) ## This will fetch the first element from the right
+```
+:::
+
+## Slicing of Tuples
+::: tip ▶Example: Slicing of Tuples
+```python
+tpl=(1,2,3,4,5,6)
+print(tpl[0:4])
+```
+:::
+
+## Tuple Operations
+::: tip ▶Example: Adding Tuples
+```python
+tpl1=(1,2,3,4)
+tpl2=('a','b','c')
+concatenated_tuple=tpl1+tpl2
+```
+💡Adding two tuples will concatenate them
+:::
+::: tip ▶Example: Multiplying tuples
+```python
+tpl=(1,2,3,4)
+print(tpl*3)
+```
+```output
+(1,2,3,4,1,2,3,4,1,2,3,4)
+```
+💡Multiplying a tuple will replicate the values of tuple by the number we multiplied. We cannot multiply two tuples. 
+:::
