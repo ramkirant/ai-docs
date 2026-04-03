@@ -8,10 +8,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
-      provider: 'local',
-      options: {
-        disableMeta: true
-      }
+      provider: 'local'
     },
     nav: [
       { text: 'Home', link: '/' },
@@ -28,7 +25,10 @@ export default defineConfig({
             { text: 'Introduction', link: '/python-basics/' },
             { text: 'Sets', link: '/python-basics/sets' },
             { text: 'Dictionaries', link: '/python-basics/dictionaries' },
-            { text: 'Tuples', link: '/python-basics/tuples' }
+            { text: 'Tuples', link: '/python-basics/tuples' },
+            { text: 'Functions', link: '/python-basics/functions' },
+            { text: 'Lambda Functions', link: '/python-basics/lambdas' },
+            { text: 'Standard Libraries', link: '/python-basics/standard-libraries' }
           ]
         }
       ],

@@ -56,3 +56,48 @@ print(tpl*3)
 ```
 💡Multiplying a tuple will replicate the values of tuple by the number we multiplied. We cannot multiply two tuples. 
 :::
+## Tuple Methods
+### Find the element count
+::: tip ▶Example: Count the number of times an element is present in the tuple ```tuple.count()```
+```python
+tpl=(1,2,3,4,4,5)
+print(tpl.count(4))
+```
+💡```tuple.count()``` method compares elements using the **equality operator**
+
+💡For custom class objects, the count method calls the ```__eq__``` method.
+
+   💡If the class don't have the ```__eq__``` method, python uses the default identity comparison (is)
+   This means the objects are only considered equal if they are the exact same instance in memory
+:::
+### Find the element at an index
+::: tip ▶Example: Find the element at an index ```tuple.index()```
+```python
+tpl=(1,2,3,4,4,5)
+print(tpl.index(3))
+```
+:::
+## Packing and unpacking a tuple
+::: tip ▶Example: Packing a tuple
+```python
+packed_tpl=1,"Test",3
+print(packed_tpl)
+```
+:::
+::: tip ▶Example: Unpacking a tuple
+```python
+a,b,c=packed_tpl
+```
+:::
+::: tip ▶Example: Unpacking with *
+```python
+tpl=(1,2,3,4,5)
+first,*middle,last=tpl
+```
+In this example, the variable middle will be a tuple with all the values between first and last
+:::
+::: tip ▶Example: Nested tuple
+```python
+nested_tpl=(1,(2,3,4),5)
+```
+:::
